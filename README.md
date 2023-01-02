@@ -22,11 +22,11 @@
 
 ### Promise Lifecycle
 
-<!-- <center>
+<center>
 <img src="promise_cycle.jpg" alt="promise lifecycle" height="400">
-</center> -->
+</center>
 
-![promise lifecycle](promise_cycle.jpg)
+<!-- ![promise lifecycle](promise_cycle.jpg) -->
 
 - **Pending State:** It is the initial state of a promise.
     - This means that promise is not started executing, it is neither resolved nor rejected.
