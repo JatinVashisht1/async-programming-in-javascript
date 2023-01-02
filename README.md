@@ -23,7 +23,7 @@
 ### Promise Lifecycle
 
 <!-- <center> -->
-    <img src="promise_cycle.png" alt="promise lifecycle" height="400">
+<img src="promise_cycle.png" alt="promise lifecycle" height="400">
 <!-- </center> -->
 
 - **Pending State:** It is the initial state of a promise.
