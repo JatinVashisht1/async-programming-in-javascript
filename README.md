@@ -23,7 +23,7 @@
 ### Promise Lifecycle
 
 <center>
-<img src="promise_cycle.jpg" alt="promise lifecycle" height="400">
+<img src="promise_cycle.bmp" alt="promise lifecycle" height="400">
 </center>
 
 <!-- ![promise lifecycle](promise_cycle.jpg) -->
