@@ -5,19 +5,32 @@ let stocks = {
     toppings:['chocolate', 'peanuts']
 };
 
-let is_shop_open = false;
+let is_shop_open = true;
 
+// let order = ()=>{
 
-let order = (time, work)=>{
-    
-    return new Promise( (resolve, reject)=>{
-        if(is_shop_open){
-            setTimeout(() => {
-                resolve(work())
-            }, time);
-        }else{
-            reject(console.log('our shop is closed.'))
-        }
-    } )
+//     return new Promise( (resolve, reject)=>{
+//         if(is_shop_open){
+
+//             resolve();
+//         }else{
+
+//             reject();
+//         }
+//     } )
+// }
+
+async function order () {
+    try {
+        await abc()
+    } catch (error) {
+        console.log(`abc doesn't exist, ${error}`)
+    } finally{
+        console.log('runs code anyway')
+    }
 }
+
+// chaining can also be done using async await!
+order()
+.then( ()=>console.log('write anything here') )
 
