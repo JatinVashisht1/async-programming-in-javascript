@@ -37,3 +37,22 @@
 - **.then** helps in chaining multiple promises and helps executing them one after another
 - **.catch** this block is invoked whenever an error is encountered. It is also called **error handler**.
 - **.finally** It will get executed irrespective of the execution of promise. Resolving or rejection of a promise don't effect execution of finally block.
+
+
+## Async and await
+- async and await keywords are also used to use perform async tasks in javascript.
+- They act as syntactical sugar over promises to simplify the code and to give it a procedural view.
+- We wrap our promise using an async function.
+- await keyword is used to wait for the result of the async function or promise.
+- meanwhile other functionalities will work as usual.
+- refer to this [code](6_using_async_await.js) to understand the use of async and await keyword.
+- we can also chain tasks using async functions like promises.
+```
+// function declaration
+async function fun(){}
+
+// function invoking
+fun()
+.then()
+.then()
+```
